@@ -238,7 +238,9 @@ padding-top: 20px;
 	background: url(../images/map.jpg) center center no-repeat;
 }
 
-
+ul {
+  list-style: none;
+}
 
 #contact-form ul {
   margin-bottom: 20px;
