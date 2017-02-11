@@ -1,0 +1,329 @@
+body {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px;
+  color: #777;
+  line-height: 34px;
+  background-image: url(../images/polygon.png);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/*General*/
+
+
+.container {
+  clear: both;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-bottom: 20px;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+
+h1 {
+  padding-bottom: 20px;
+  font-size: 30px;
+  line-height: 49px;
+ 
+}
+
+h2,
+h3 {
+  font-size: 20px;
+}
+
+/*------------------
+---- Nav Styles ----
+--------------------*/
+
+
+
+#site-nav a{
+	padding:7px 30px;
+	min-width:120px;
+	font-size: 16px;
+	font-weight: 6400;
+	color:#000080;
+	text-align: center;
+	background: none;	
+	padding-top:20px;
+}
+
+#site-nav .active a,
+#site-nav a:hover,
+#site-nav a:focus{
+	padding-top: 4px;
+	padding-bottom:10px;
+	color:#00CCCB;
+	background: none;
+}
+#site-nav a .fa{
+	display: block;
+	margin-bottom: 5px;
+	font-size: 21px;
+	text-align: center;
+}
+
+#site-nav ul li + li{
+	border-left:1px solid #b9c4cC;
+}
+
+#logo {
+  width: 250px;
+  height: 90px;
+  float: left;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 30px;
+  margin-left: 35px;
+  text-decoration: none;
+  background: #000080;
+}
+
+#main-nav {
+	border-bottom: 4px solid #000080;
+}
+
+#masthead {
+  position: fixed;
+  z-index: 99;
+  margin: 0 0 30px;
+  overflow: auto;
+  width: 100%;
+  color: #fff;
+  background: #fff;
+  border-bottom: 2px solid #ccc;
+}
+
+
+/*sidebar*/
+
+.col-md-3 {
+ position: relative;
+  padding: 30px;
+  width: 100%;
+  margin-right: 50px;
+  max-width: 270px;
+  float: right;
+  margin-bottom: 20px;
+  background: #fff;
+  text-align: center;
+  border: 2px solid #000080;
+}
+
+
+.col-md-3 h3 {
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  line-height: 22px;
+  border-bottom: 2px solid #000080;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  color: #000080;
+  font-weight: 700;
+  
+}
+
+a img {
+width: 65px;
+padding: 0;
+display: inline;
+padding-top: 20px;
+
+}
+
+.col-md-3:last-child {
+  margin-right: 0;
+}
+
+.col-md-3 {
+  
+  width: 274px;
+  overflow: auto;
+  margin: 20px 0 25px;
+}
+
+#sidebar {
+	margin-right: -300px;
+}
+/*Index/About*/
+
+.col-md-5 {
+  padding-top: 130px;
+}
+
+.col-md-5 {
+  padding: 30px;
+  margin: 0 0 40px 0;
+  width: 100%;
+  max-width: 650px;
+  float: left;
+  background: #fff;
+  border: 2px solid #000080;
+  color: #000080;
+}
+
+ .col-md-5 p{
+	color: #000080;
+	font-size: bold;
+}
+
+.auth-image {
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+  float: left;
+}
+
+ .col-md-5 h2 {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  color: #000080;
+  font-weight: 700;
+  border-bottom: 2px solid #000080;
+  padding-bottom: 20px;
+}
+
+
+
+/*portfolio page*/
+
+#portfolio {
+	background:url(../images/portfolio.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.col-sm-4 h3 {
+  position: relative;
+  bottom: 20px;
+  margin-bottom: 0;
+  padding: 15px;
+  width: 98.2%;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+  font-weight: 300;
+  background: #000080;
+  border-bottom: 0;
+}
+
+.row-images h1 {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  color: #000080;
+  font-weight: 700;
+  margin-left: 25px;
+}
+
+
+
+/*contact page*/
+
+#contact{
+	position: relative;
+	background: url(../images/map.jpg) center center no-repeat;
+}
+
+
+#contact-form ul {
+  margin-bottom: 20px;
+}
+
+#contact-form li {
+  margin-bottom: 10px;
+}
+
+
+#contact-form h1 {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  color: #000080;
+  font-weight: 700;
+
+}
+
+#contact-form li {
+	font-family:'Georgia', Times, Times New Roman, serif;
+	font-size: 16px;
+	color: #000080;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+
+textarea {
+  height: 200px;
+}
+
+input[type=submit] {
+  padding: 10px 30px;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  background: #000080;
+  border: 0 none;
+}
+
+/*footer*/
+
+footer {
+  padding: 30px 0;
+  clear: both;
+  color: #fff;
+  color: #ccc;
+  font-size: 12px;
+  text-align: center;
+  background: #666;
+  border-top: 8px solid #000080;
+}
+
+.linkMakeup:hover{
+  background-color: gray;
+  color: blue;
+}
+
+.imgHover:hover{
+  border:1px solid #000080;
+}
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
